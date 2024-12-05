@@ -1,5 +1,5 @@
 {% set name = "butane" %}
-{% set version = "0.22.0" %}
+{% set version = "0.23.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/coreos/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 1a91ea42a7d952fd91078c7492e8f813e0e69d312225ee1903c157024da7e643
+  sha256: f47c15f605736aaeee20fab290a4f727c8296e4c514ca2d18c0d938ad6c1960d
 
 build:
   script:
@@ -31,7 +31,7 @@ about:
     Butane (formerly the Fedora CoreOS Config Transpiler, FCCT)
     translates human readable Butane Configs into machine readable
     Ignition Configs.
-  license:  Apache-2.0
+  license: Apache-2.0
   license_file:
     - LICENSE
     - license-files/
