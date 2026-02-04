@@ -1,5 +1,5 @@
 {% set name = "butane" %}
-{% set version = "0.25.1" %}
+{% set version = "0.26.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/coreos/{{ name }}/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 14203e7fa13f5753e332c472d0d7be3fc7ddf9a637873463793d898bb61cf69c
+  sha256: 4294b92ab18cecfad3758100017d4fa3af6da131b3ae1ce1074c5c0e836fa9bd
 
 build:
   script:
